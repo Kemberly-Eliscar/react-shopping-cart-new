@@ -23,18 +23,9 @@ function App() {
 				<Navigation cart={cart} />
 
 				{/* Routes */}
-				<Route
-					exact
-					path="/"
-					component={Products}
-					/>
-				
-
-				<Route
-					path="/cart"
-					component={cart} 
-					/>
-				
+				<Route exact path="/" component={Products}/>
+			
+				<Route path="/cart" component={cart} />
 			</div>
 		</ProductContext.Provider>
 	);
